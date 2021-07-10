@@ -252,7 +252,7 @@ Hero
 ========================================================================== */
 .hero {
   min-height: 750px;
-  background: url('../img/534_SL.jpeg') center center;
+  background: url('../img/JonnieWebBavariaRainbow-Wedding.jpeg') center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -283,6 +283,16 @@ Hero
   .hero-content img {
     width: 55%;
     margin-bottom: 12%;
+  }
+}
+@media (max-width: 600px) {
+  .hero{
+    background: url('../img/JonnieWebBavariaRainbowmobile.png') center center;
+    width: 200%;
+  }
+  iframe {
+    width: auto;
+    height: auto;
   }
 }
 .navigation {
